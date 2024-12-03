@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#home .slider-for {
+  width: 95%;
+  margin: auto;
+}
+#home .slider-for img {
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+#home .cars {
+  width: 100%;
+  margin: auto;
+}
+#home .cars img {
+  border-radius: 10px;
+  margin: 0 5px;
+}
+#home .slick-next {
+  opacity: 0;
+}
+#home .slick-prev {
+  opacity: 0;
+}
+#home #slick-slide-control04,
+#home #slick-slide-control03,
+#home #slick-slide-control02,
+#home #slick-slide-control01,
+#home #slick-slide-control00 {
+  display: none;
+}
+#home swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#home swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#home swiper-slide img {
+  display: block;
+  width: 100%;
+}
+#home slick-arrow {
+  display: none;
+}
+#home swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#home swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#home swiper-slide img {
+  display: block;
+  width: 100%;
+}
+#home .slider img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home .box {
+  width: 80%;
+  margin: 5px auto;
+  height: 60vh;
+  transition: 2s;
+}
+#home .box img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home .card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#home .card #boxx {
+  transition: 2s;
+}/*# sourceMappingURL=plugin.css.map */
